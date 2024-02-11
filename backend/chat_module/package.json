@@ -1,0 +1,14 @@
+{
+  "name": "chatmodule",
+  "version": "1.0.0",
+  "description": "Chat Module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @google-cloud/functions-framework --target=createChatSession --signature-type=event"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "@google-cloud/logging": "^10.3.1",
+    "firebase-admin": "^11.2.1"
+  }
+}

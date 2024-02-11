@@ -1,0 +1,9 @@
+{
+    "attributes": {
+        "customerEmail": "hrishi@test.com",
+        "customerName": "Hrishi",
+        "restaurantEmail": "hrishi2@test.com",
+        "restaurantName": "Test",
+        "userQuery": "This is a test query!"
+    }
+}

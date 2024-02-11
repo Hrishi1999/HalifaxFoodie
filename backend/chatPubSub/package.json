@@ -1,0 +1,16 @@
+{
+  "name": "chatendsession",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testEnd": "npx @google-cloud/functions-framework --target=pullMessages --signature-type=event",
+    "testPull": "npx @google-cloud/functions-framework --target=pullMessages --signature-type=event"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "@google-cloud/pubsub": "^3.2.1"
+  }
+}
